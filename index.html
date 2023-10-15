@@ -14,7 +14,12 @@
     <main w3-include-html="./pages/main/index.html"></main>
     <script>
       includeHTML();
-      showProduct();
+      const interval = setInterval(() => {
+        if (!isLoading) {
+          clearInterval(interval);
+          showProduct();
+        }
+      }, 1);
     </script>
   </body>
 </html>

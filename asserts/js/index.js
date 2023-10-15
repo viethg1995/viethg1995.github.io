@@ -1,3 +1,5 @@
+let isLoading = true;
+
 const includeHTML = () => {
   let z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
@@ -28,4 +30,6 @@ const includeHTML = () => {
       return;
     }
   }
+
+  isLoading = false;
 };
