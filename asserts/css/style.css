@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.field-input {
+  width: fit-content;
+}
+
+.btn {
+  border-radius: 5px;
+  height: 30px;
+}
+
+.btn-create {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  box-shadow: none;
+}
+
+.input {
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.input-product {
+  padding-left: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-product thead tr th,
+td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.table-product thead tr th {
+  background-color: #59a7fb;
+}
+
+#tbody-show-product tr td:nth-child(2),
+:nth-child(3) {
+  text-align: left;
+}

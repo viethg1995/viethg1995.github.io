@@ -1,0 +1,40 @@
+<div>
+  <fieldset class="field-input">
+    <legend>Thêm mới sản phầm</legend>
+    <div class="cell-input">
+      <input
+        type="text"
+        name="product-name"
+        id="product-name"
+        class="input input-product"
+        placeholder="Tên sản phẩm"
+      />
+      <button class="btn btn-create" onclick="addProduct()">
+        Thêm mới sản phầm
+      </button>
+    </div>
+    <div class="cell-input">
+      <input
+        type="text"
+        name="price"
+        id="price"
+        class="input input-product"
+        placeholder="Giá sản phẩm"
+      />
+    </div>
+  </fieldset>
+  <fieldset class="field-input">
+    <legend>Danh sách sản phẩm</legend>
+    <table class="table-product">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên sản phẩm</th>
+          <th>Giá sản phẩm</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody-show-product"></tbody>
+    </table>
+  </fieldset>
+</div>
